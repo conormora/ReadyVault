@@ -1,0 +1,178 @@
+body, h1, h2, h3 {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+
+/* Headings*/
+.title-heading {
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.testimonial-heading, .works-heading {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+ .features-heading, .works-subheading, .cta-heading {
+   line-height: 1.5;
+   font-weight: 700;
+ }
+
+ .feature-title {
+   font-weight: 700;
+   margin-bottom: 50px;
+   font-size: 2.4rem;
+
+ }
+
+
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+
+
+/* Title Page */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.btn-holder {
+  text-align: left;
+}
+
+.title-img {
+  width: 80%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 25%;
+}
+
+
+/* Feature Page */
+.feature-box {
+  padding: 2%;
+  line-height: 2;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: .9rem;
+}
+
+.icon:hover {
+  color: #e2370f;
+}
+
+
+/* Testimonial Page */
+.testimonial-img {
+  width: 13%;
+  margin: 20px;
+  border-radius: 100%
+}
+
+.carousel-inner {
+  padding: 4% 15%;
+}
+
+
+
+/* How it Works Page */
+.works-card {
+  padding: 3% 2%;
+}
+
+
+/* Download Landing Page */
+.cta-header {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Footer Page */
+.footer-icon {
+  margin: 20px 10px;
+}
+
+
+#title {
+  text-align: center;
+  background-color: #985037;
+  color: #fff;
+}
+
+#features {
+  padding: 4% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 100;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#works {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#cta {
+  background-color: #985037;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+#footer {
+  padding: 7% 15%;
+}
+
+@media (max-width: 1050px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    transform: rotate(0);
+    position: static;
+  }
+
+}
